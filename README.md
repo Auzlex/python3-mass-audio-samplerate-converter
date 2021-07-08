@@ -1,5 +1,5 @@
 # python3-mass-audio-samplerate-converter
-A simple python script that utilizes librosa and soundfile to mass convert a folder of wav files to a desired sample rate.
+A simple python script that utilizes librosa and soundfile to mass convert a folder of **wav** files to a desired sample rate.
 
 ## How to use:
 
@@ -18,6 +18,8 @@ A simple python script that utilizes librosa and soundfile to mass convert a fol
 3. Running the script:
 
     At the moment you will need to edit the "mass_audio_samplerate_converter.py" and change a variable named "target_samplerate = 22050" to a specified sample rate value you want to convert to.
+
+    **NOTE:** This script at the moment will only mass convert **WAV** files.
 
     Firstly run the script
     ```
