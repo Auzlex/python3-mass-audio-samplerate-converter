@@ -22,9 +22,9 @@ A simple python script that utilizes librosa and soundfile to mass convert a fol
     **NOTE:** This script at the moment will only mass convert **WAV** files.
 
     Firstly run the script
-    ```
-        python3 mass_audio_samplerate_converter.py
-    ```
+    
+    `python3 mass_audio_samplerate_converter.py`
+        
     On the first run 2 folders in the same directory as the script will be created:
     - "target" place your files you wish to convert in this folder.
     - "converted" files successfully converted will appear in this folder.
